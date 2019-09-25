@@ -21,7 +21,7 @@ public class MyTestClass {
   *
   */
   public void writeAboutMe() {
-         System.out.println("I am running the following java class: "+MyTestClass.class);
+         System.out.println("I am running the following java class: " + MyTestClass.class);
   }
 
 }
