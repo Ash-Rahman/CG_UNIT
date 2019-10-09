@@ -40,4 +40,9 @@ public class FarmFacadeImpl implements FarmFacade {
         allAnimals.add(cow);
     }
 
+    public void addTurtle(String name) {
+        Turtle turtle = new Cow();
+        turtle.setName(name);
+        allAnimals.add(turtle);
+    }
 }

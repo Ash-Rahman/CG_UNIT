@@ -14,6 +14,8 @@ public class AnimalObjectFactory{
         return new Cow();
     }
 
+    public static Animal createTurtle() { return new Turtle(); }
+
     public static FarmFacade createFarmFacade() {
         FarmFacade facade = new FarmFacadeImpl();
         return facade;
