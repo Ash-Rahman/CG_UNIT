@@ -16,4 +16,5 @@ public interface FarmFacade {
     public boolean removeAnimal(String name);
 
     public List<String> getSupportedAnimalTypes();
+
 }
